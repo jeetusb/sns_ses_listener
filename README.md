@@ -1,5 +1,5 @@
-sns_ses_listener
-================
+HTTP Listener for Email Bounce/Spam.
+===================================
 
 ###Here are two files bounce.php acts as a webhook for the email bounce notification sent by AWS SNS.
 
