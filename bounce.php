@@ -18,7 +18,9 @@ if ($data->Type == 'SubscriptionConfirmation') {
     $data = curl_exec($ch);
     curl_close($ch);
 } else {
-    
+    /**
+     * parse for bounce notification.
+     */
     $obj = json_decode($data->Message);
 
     $notificationType = $obj->{'notificationType'};
